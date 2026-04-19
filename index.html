@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Photo Home </title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- TOPBAR -->
+<div class="topbar">
+    <div class="top-inner">
+
+        <div class="brand">
+            <h1>Photo Home</h1>
+        </div>
+
+        <div class="right-boxes">
+
+            <div class="box phone-box">📞 03338181082</div>
+            <div class="box email-box">📧 photohome92@gmail.com</div>
+
+        </div>
+
+    </div>
+
+    <!-- CART BUTTON -->
+    <div class="cart-bar">
+        <button onclick="location.href='cart.html'">🛒 View Cart</button>
+    </div>
+</div>
+
+<!-- PRODUCTS -->
+<div class="products">
+
+<!-- 1 -->
+<div class="card">
+<img src="images/frames1.jpg">
+<div class="info">
+<h3>Frames</h3>
+<p class="price">Rs 1599</p>
+<button class="view-btn" onclick="openProduct('frames')">View</button>
+<button class="cart-btn2" onclick="addToCart('Frames',1599)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 2 -->
+<div class="card">
+<img src="images/mirrorframes1.jpg">
+<div class="info">
+<h3>Mirror Frames</h3>
+<p class="price">Rs 2000</p>
+<button class="view-btn" onclick="openProduct('mirrorframes')">View</button>
+<button class="cart-btn2" onclick="addToCart('Mirror Frames',2000)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 3 -->
+<div class="card">
+<img src="images/magicmirrorframes1.jpg">
+<div class="info">
+<h3>Magic Mirror Frames</h3>
+<p class="price">Rs 2000</p>
+<button class="view-btn" onclick="openProduct('magicmirrorframes')">View</button>
+<button class="cart-btn2" onclick="addToCart('Magic Mirror Frames',2000)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 4 -->
+<div class="card">
+<img src="images/whitemug1.jpg">
+<div class="info">
+<h3>White Mug</h3>
+<p class="price">Rs 799</p>
+<button class="view-btn" onclick="openProduct('whitemug')">View</button>
+<button class="cart-btn2" onclick="addToCart('White Mug',799)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 5 -->
+<div class="card">
+<img src="images/colourmug1.jpg">
+<div class="info">
+<h3>Colour Mug</h3>
+<p class="price">Rs 1099</p>
+<button class="view-btn" onclick="openProduct('colourmug')">View</button>
+<button class="cart-btn2" onclick="addToCart('Colour Mug',1099)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 6 -->
+<div class="card">
+<img src="images/heartmug1.jpg">
+<div class="info">
+<h3>Heart Mug</h3>
+<p class="price">Rs 1199</p>
+<button class="view-btn" onclick="openProduct('heartmug')">View</button>
+<button class="cart-btn2" onclick="addToCart('Heart Mug',1199)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 7 -->
+<div class="card">
+<img src="images/magicmug1.jpg">
+<div class="info">
+<h3>Magic Mug</h3>
+<p class="price">Rs 1199</p>
+<button class="view-btn" onclick="openProduct('magicmug')">View</button>
+<button class="cart-btn2" onclick="addToCart('Magic Mug',1199)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 8 -->
+<div class="card">
+<img src="images/shirtwhite1.jpg">
+<div class="info">
+<h3>White Shirt</h3>
+<p class="price">Rs 799</p>
+<button class="view-btn" onclick="openProduct('shirtwhite')">View</button>
+<button class="cart-btn2" onclick="addToCart('White Shirt',799)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 9 -->
+<div class="card">
+<img src="images/shirtcolour1.jpg">
+<div class="info">
+<h3>Colour Shirt</h3>
+<p class="price">Rs 1499</p>
+<button class="view-btn" onclick="openProduct('shirtcolour')">View</button>
+<button class="cart-btn2" onclick="addToCart('Colour Shirt',1499)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 10 -->
+<div class="card">
+<img src="images/flyers1.jpg">
+<div class="info">
+<h3>Flyers</h3>
+<p class="price">Rs 699</p>
+<button class="view-btn" onclick="openProduct('flyers')">View</button>
+<button class="cart-btn2" onclick="addToCart('Flyers',699)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 11 -->
+<div class="card">
+<img src="images/visitingcards1.jpg">
+<div class="info">
+<h3>Visiting Cards</h3>
+<p class="price">Rs 1999</p>
+<button class="view-btn" onclick="openProduct('visitingcards')">View</button>
+<button class="cart-btn2" onclick="addToCart('Visiting Cards',1999)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 12 -->
+<div class="card">
+<img src="images/canvas1.jpg">
+<div class="info">
+<h3>Canvas Prints</h3>
+<p class="price">Rs 1399</p>
+<button class="view-btn" onclick="openProduct('canvas')">View</button>
+<button class="cart-btn2" onclick="addToCart('Canvas Prints',1399)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 13 -->
+<div class="card">
+<img src="images/framedcanvas1.jpg">
+<div class="info">
+<h3>Framed Canvas</h3>
+<p class="price">Rs 1599</p>
+<button class="view-btn" onclick="openProduct('framedcanvas')">View</button>
+<button class="cart-btn2" onclick="addToCart('Framed Canvas',1599)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 14 -->
+<div class="card">
+<img src="images/birthdaycard1.jpg">
+<div class="info">
+<h3>Birthday Cards</h3>
+<p class="price">Rs 499</p>
+<button class="view-btn" onclick="openProduct('birthdaycard')">View</button>
+<button class="cart-btn2" onclick="addToCart('Birthday Cards',499)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 15 -->
+<div class="card">
+<img src="images/lunchbox1.jpg">
+<div class="info">
+<h3>Lunch Box</h3>
+<p class="price">Rs 699</p>
+<button class="view-btn" onclick="openProduct('lunchbox')">View</button>
+<button class="cart-btn2" onclick="addToCart('Lunch Box',699)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 16 -->
+<div class="card">
+<img src="images/waterbottle1.jpg">
+<div class="info">
+<h3>Water Bottle</h3>
+<p class="price">Rs 899</p>
+<button class="view-btn" onclick="openProduct('waterbottle')">View</button>
+<button class="cart-btn2" onclick="addToCart('Water Bottle',899)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 17 -->
+<div class="card">
+<img src="images/tempbottle1.jpg">
+<div class="info">
+<h3>Temperature Bottle</h3>
+<p class="price">Rs 1499</p>
+<button class="view-btn" onclick="openProduct('tempbottle')">View</button>
+<button class="cart-btn2" onclick="addToCart('Temperature Bottle',1499)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 18 -->
+<div class="card">
+<img src="images/wallet1.jpg">
+<div class="info">
+<h3>Wallet</h3>
+<p class="price">Rs 1299</p>
+<button class="view-btn" onclick="openProduct('wallet')">View</button>
+<button class="cart-btn2" onclick="addToCart('Wallet',1299)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 19 -->
+<div class="card">
+<img src="images/keyring1.jpg">
+<div class="info">
+<h3>Keyring</h3>
+<p class="price">Rs 499</p>
+<button class="view-btn" onclick="openProduct('keyring')">View</button>
+<button class="cart-btn2" onclick="addToCart('Keyring',499)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 20 -->
+<div class="card">
+<img src="images/chain1.jpg">
+<div class="info">
+<h3>Chain</h3>
+<p class="price">Rs 499</p>
+<button class="view-btn" onclick="openProduct('chain')">View</button>
+<button class="cart-btn2" onclick="addToCart('Chain',499)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 21 -->
+<div class="card">
+<img src="images/ring1.jpg">
+<div class="info">
+<h3>Ring</h3>
+<p class="price">Rs 245</p>
+<button class="view-btn" onclick="openProduct('ring')">View</button>
+<button class="cart-btn2" onclick="addToCart('Ring',245)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 22 -->
+<div class="card">
+<img src="images/album1.jpg">
+<div class="info">
+<h3>Album</h3>
+<p class="price">Rs 999</p>
+<button class="view-btn" onclick="openProduct('album')">View</button>
+<button class="cart-btn2" onclick="addToCart('Album',999)">Add To Cart</button>
+</div>
+</div>
+
+<!-- 23 -->
+<div class="card">
+<img src="images/cushion1.jpg">
+<div class="info">
+<h3>Cushion</h3>
+<p class="price">Rs 749</p>
+<button class="view-btn" onclick="openProduct('cushion')">View</button>
+<button class="cart-btn2" onclick="addToCart('Cushion',749)">Add To Cart</button>
+</div>
+</div>
+
+</div>
+
+<script>
+function openProduct(id){
+localStorage.setItem("product",id);
+location.href="product.html";
+}
+
+function addToCart(name,price){
+let cart = JSON.parse(localStorage.getItem("cart")) || [];
+cart.push({name,price});
+localStorage.setItem("cart",JSON.stringify(cart));
+alert("Added 🛒");
+}
+</script>
+
+</body>
+</html>
